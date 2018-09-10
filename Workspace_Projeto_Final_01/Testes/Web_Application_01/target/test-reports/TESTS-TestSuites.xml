@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="WIN-7AH46PBMGBC" id="0" name="BootStrapTests" package="web_application_01" tests="1" time="0.691" timestamp="2014-01-07T17:51:07">
+      <properties />
+
+      <testcase classname="web_application_01.BootStrapTests" name="testSomething" time="0.657">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at web_application_01.BootStrapTests.testSomething(BootStrapTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

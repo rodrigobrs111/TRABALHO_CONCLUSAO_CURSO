@@ -1,0 +1,340 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>HTTP Builder - Content Types</title>
+    <style type="text/css" media="all">
+      @import url("../css/maven-base.css");
+      @import url("../css/maven-theme.css");
+      @import url("../css/site.css");
+    </style>
+    <link rel="stylesheet" href="../css/print.css" type="text/css" media="print" />
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+                                                    
+<link rel="stylesheet" type="text/css" href="http://alexgorbatchev.com/pub/sh/current/styles/shCore.css" media="all"/>
+                                                        
+<link rel="stylesheet" type="text/css" href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeFadeToGrey.css" media="all"/>
+                                                        
+<style>#bodyColumn { max-width: 840px }</style>
+                                                        
+<script src="http://alexgorbatchev.com/pub/sh/current/scripts/shCore.js" language="javaScript"></script>
+                                                        
+<script src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushGroovy.js" language="javaScript"></script>
+                                                        
+<script src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushXml.js" language="javaScript"></script>
+                                                        
+<script language="javascript">SyntaxHighlighter.defaults['light'] = true;
+			 SyntaxHighlighter.all();</script>
+                    </head>
+  <body class="composite">
+    <div id="banner">
+                  <a href="index.html" id="bannerLeft">
+    
+                                            <img src="../images/logo.png" alt="" />
+    
+            </a>
+                        <a href="../../" id="bannerRight">
+    
+                                    <img src="http://media.xircles.codehaus.org/_projects/groovy/_logos/medium.png" alt="" />
+    
+            </a>
+            <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="breadcrumbs">
+          
+  
+
+  
+    
+            
+  
+    
+            <div class="xleft">
+        Version: 0.5.0-RC3
+              </div>
+            <div class="xright">      
+  
+
+  
+    
+            
+  
+    
+             Last Published: 2010-02-17
+            </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="leftColumn">
+      <div id="navcolumn">
+           
+  
+
+  
+    
+            
+  
+    
+                   <h5>Overview</h5>
+            <ul>
+              
+    <li class="none">
+                    <a href="../home.html">Home</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../index.html">News</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../download.html">Download</a>
+          </li>
+              
+                
+              
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+            
+            
+      
+            
+      
+            
+      
+              
+            <li class="expanded">
+                    <a href="../doc/index.html">Documentation</a>
+                  <ul>
+                  
+    <li class="none">
+                    <a href="../doc/get.html">GET Examples</a>
+          </li>
+                  
+    <li class="none">
+                    <a href="../doc/post.html">POST Examples</a>
+          </li>
+                  
+    <li class="none">
+                    <a href="../doc/json.html">Using JSON</a>
+          </li>
+                  
+    <li class="none">
+                    <a href="../doc/xml.html">Using XML</a>
+          </li>
+                  
+    <li class="none">
+                    <a href="../doc/rest.html">RESTClient</a>
+          </li>
+                  
+    <li class="none">
+                    <a href="../doc/async.html">AsyncHTTPBuilder</a>
+          </li>
+                  
+    <li class="none">
+                    <a href="../doc/httpurlclient.html">HttpURLClient</a>
+          </li>
+                  
+    <li class="none">
+              <strong>Content Types</strong>
+        </li>
+                  
+    <li class="none">
+                    <a href="../doc/handlers.html">Response Handlers</a>
+          </li>
+                  
+    <li class="none">
+                    <a href="../doc/uribuilder.html">URIBuilder</a>
+          </li>
+                  
+    <li class="none">
+                    <a href="../doc/ssl.html">SSL</a>
+          </li>
+              </ul>
+        </li>
+              
+    <li class="none">
+                    <a href="../apidocs/index.html">JavaDoc</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../changes.html">Changelog</a>
+          </li>
+              
+    <li class="none">
+                    <a href="http://twitter.com/httpbuilder" class="externalLink">On Twitter!</a>
+          </li>
+              
+    <li class="none">
+                    <a href="https://www.ohloh.net/p/http-builder" class="externalLink">On Ohloh</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../home.html#Support">Support</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../about.html">About</a>
+          </li>
+          </ul>
+              <h5>Additional Reference</h5>
+            <ul>
+              
+    <li class="none">
+                    <a href="../../../Documentation">Groovy</a>
+          </li>
+              
+    <li class="none">
+                    <a href="http://hc.apache.org/httpcomponents-client/" class="externalLink">HttpClient</a>
+          </li>
+              
+    <li class="none">
+                    <a href="http://hc.apache.org/httpcomponents-core/" class="externalLink">HttpCore</a>
+          </li>
+              
+    <li class="none">
+                    <a href="http://json-lib.sourceforge.net/" class="externalLink">JSON-Lib</a>
+          </li>
+              
+    <li class="none">
+                    <a href="http://nekohtml.sourceforge.net/" class="externalLink">NekoHTML</a>
+          </li>
+          </ul>
+              <h5>Project Documentation</h5>
+            <ul>
+              
+                
+              
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+              
+        <li class="collapsed">
+                    <a href="../project-info.html">Project Information</a>
+                </li>
+              
+                
+              
+      
+            
+      
+            
+      
+            
+      
+            
+      
+            
+      
+              
+        <li class="collapsed">
+                    <a href="../project-reports.html">Project Reports</a>
+                </li>
+          </ul>
+                                                 
+                        
+                        
+            <a href="http://maven.apache.org/" title="Maven" class="poweredBy">
+                            <img alt="Maven" src="http://maven.apache.org/images/logos/maven-feather.png" />
+            </a>
+                                
+                        
+                        
+            <a href="http://www.ohloh.net/p/http-builder" title="Ohloh" class="poweredBy">
+                            <img alt="Ohloh" src="http://www.ohloh.net/p/http-builder/widgets/project_thin_badge.gif" />
+            </a>
+                               
+  
+
+  
+    
+            
+  
+    
+        </div>
+    </div>
+    <div id="bodyColumn">
+      <div id="contentBox">
+        <div class="section"><h2>Support for new Content Types</h2>
+<p>To add parsing for new content types, simply add a new entry to the builder's <tt><a href="../apidocs/groovyx/net/http/ParserRegistry.html">ParserRegistry</a></tt>. For example, to parse comma-separated-values using <a href="http://opencsv.sourceforge.net/" class="externalLink">OpenCSV</a>:</p>
+<pre class="brush: groovy">import au.com.bytecode.opencsv.CSVReader
+import groovyx.net.http.ParserRegistry
+
+http.parser.'text/csv' = { resp -&gt;
+  return new CSVReader( new InputStreamReader( resp.entity.content,
+                                ParserRegistry.getCharset( resp ) ) )
+}
+</pre><p>A <tt>CSVReader</tt> instance will then be passed as the second argument to the response handler:</p>
+<pre class="brush: groovy">http.get( uri : 'http://somehost.com/contacts.csv', 
+					contentType : 'text/csv' ) { resp, csv -&gt;
+		
+		assert csv instanceof CSVReader
+		// parse the csv stream here.
+}
+</pre><p>You can refer to <a href="http://www.iana.org/assignments/media-types/" class="externalLink">IANA</a> for a complete list of registered content-type names, but the most common are already handled in the <a href="../apidocs/groovyx/net/http/ContentType.html">ContentType</a> enumeration.</p>
+</div>
+
+      </div>
+    </div>
+    <div class="clear">
+      <hr/>
+    </div>
+    <div id="footer">
+      <div class="xright">&#169;  
+          2008-2010
+    
+          
+  
+
+  
+    
+            
+  
+    
+  </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+  </body>
+</html>
